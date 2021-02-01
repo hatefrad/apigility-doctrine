@@ -1,7 +1,7 @@
 Apigility & Doctrine ReSTful Application
 ==============================
 
-A ReST API built in Apigility and Doctrine.
+A REST API built in Apigility and Doctrine.
 
 ## Quick start
 
@@ -12,9 +12,9 @@ Enable composer development mode:
 `composer development-enable`
 
 Make a copy of `local.php.dist` & `doctrine.local.php.dist` files (under config
-directory) without the .dist extension at the end.
+directory) removing the `.dist` extension from the end.
 
-By default this repositroy includes a SQLite example with a few tables for
+By default this repository includes a SQLite example with a few tables for
 Oauth2 authentication and some tables for the Bookstore module.
 
 ## APIs
